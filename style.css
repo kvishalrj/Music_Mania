@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    background-color: rgb(130, 125, 125);
+}
+
+/* start of navbar */
+.navbar{
+    height: 6vh;
+    background-color: black;
+    color: white;
+}
+
+.navbar ul{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li{
+    padding: 0 12px;
+    list-style: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 35px;
+    padding: 0 8px;
+}
+/* end of navbar */
+
+
+/* start of main */
+
+.container{
+    height: 73vh;
+    width: 75%;
+    background-image: url(/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.list ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: white;
+    width: 30vw;
+    height: 5vh;
+    margin: 6px;
+    padding: 2px;
+    border-radius: 43px;
+    cursor: pointer;
+}
+
+.list ul li h4{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.list ul li img{
+    width: 35px;
+    height: 35px;
+    border-radius: 43px;
+}
+
+/* end of main */
+
+
+/* start of bottom */
+.bottom{
+    height: 15vh;
+    background-color: black;
+    color: white;
+}
+
+.foot{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.foot input{
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.name{
+    display: flex;
+}
+
+.icons{
+    order: 2;
+    margin-left: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons i{
+    padding: 2px 8px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.singer{
+    margin-top: 15px;
+    display: flex;
+}
+
+.singer img{
+    height: 2.5vh;
+    width: 5vw;
+    margin-right: 12px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+#singerName{
+    font-family: 'Varela Round', sans-serif;
+    width: 20vw;
+}
+
+/* end of bottom */
+
+
+/* responsive */
+
+@media screen and (max-width: 768px){
+
+    .logo img{
+        width: 80px;
+    }
+
+    .list ul{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar ul li{
+       font-size: 40px;
+    }
+
+    .container{
+        height: 80vh;
+        width: 96%;
+        background: black;
+        border-radius: 5px;
+    }
+
+    .list ul li{
+        width: 90vw;
+        height: 6vh;
+        margin: 14px;
+        border-radius: 50px;
+    }
+
+    .list ul li h4{
+        font-size: 40px;
+    }
+    
+    .list ul li img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+    }
+
+    .list ul li span{
+        font-size: 35px;
+    }
+
+    .name{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .singer img{
+        height: 3vh;
+        width: 15vw;
+    }
+
+    #singerName{
+        margin-top: 10px;
+        width: 70vw;
+        font-size: 40px;
+    }
+
+    .icons{
+        margin-left: 0vw;
+        margin-top: 35px;
+    }
+
+    .icons i{
+        margin: 30px;
+    }
+
+}
