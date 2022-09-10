@@ -12,7 +12,7 @@ body{
 
 /* start of navbar */
 .navbar{
-    height: 6vh;
+    height: 7vh;
     background-color: black;
     color: white;
 }
@@ -43,7 +43,7 @@ body{
 /* start of main */
 
 .container{
-    height: 73vh;
+    height: 74vh;
     width: 75%;
     background-image: url(/images/bg.jpg);
     background-position: center;
@@ -63,7 +63,7 @@ body{
     align-items: center;
     list-style: none;
     background-color: white;
-    width: 30vw;
+    width: 400px;
     height: 5vh;
     margin: 6px;
     padding: 2px;
@@ -78,7 +78,7 @@ body{
 .list ul li img{
     width: 35px;
     height: 35px;
-    border-radius: 43px;
+    border-radius: 50px;
 }
 
 /* end of main */
@@ -86,7 +86,7 @@ body{
 
 /* start of bottom */
 .bottom{
-    height: 15vh;
+    height: 13vh;
     background-color: black;
     color: white;
 }
@@ -128,7 +128,8 @@ body{
 .singer img{
     height: 2.5vh;
     width: 5vw;
-    margin-right: 12px;
+    margin-right: 10px;
+    margin-left: 4px;
     opacity: 0;
     transition: opacity 0.4s ease-in;
 }
@@ -145,45 +146,37 @@ body{
 
 @media screen and (max-width: 768px){
 
-    .logo img{
-        width: 80px;
-    }
-
     .list ul{
         justify-content: center;
         align-items: center;
     }
     
     .navbar ul li{
-       font-size: 40px;
+       font-size: 16px;
     }
 
     .container{
-        height: 80vh;
+        height: 73vh;
         width: 96%;
+        margin: 10px auto;
         background: black;
         border-radius: 5px;
+        z-index: -1;
     }
 
     .list ul li{
         width: 90vw;
-        height: 6vh;
-        margin: 14px;
+        height: 5.5vh;
+        margin: 4px;
         border-radius: 50px;
     }
 
     .list ul li h4{
-        font-size: 40px;
-    }
-    
-    .list ul li img{
-        width: 80px;
-        height: 80px;
-        border-radius: 50px;
+        font-size: 16px;
     }
 
     .list ul li span{
-        font-size: 35px;
+        font-size: 16px;
     }
 
     .name{
@@ -194,22 +187,22 @@ body{
 
     .singer img{
         height: 3vh;
-        width: 15vw;
+        width: 18vw;
+        margin-right: 10px;
     }
 
     #singerName{
-        margin-top: 10px;
+        margin-top: 2px;
+        margin-left: 30px;
         width: 70vw;
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .icons{
-        margin-left: 0vw;
-        margin-top: 35px;
+        margin-left: 0;
     }
 
-    .icons i{
-        margin: 30px;
+    .bottom{
+        height: 20vh;
     }
-
 }

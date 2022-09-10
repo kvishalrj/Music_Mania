@@ -11,12 +11,12 @@ let songItemPlay = Array.from(document.getElementsByClassName('songItemPlay'));
 
 let songs = [
     {songName: "Chori Chori Dil...", filePath: "/songs/1.mp3", coverPath: "/images/1.jpg"},
-    {songName: "Dekhun Tujhe Toh Pyar...", filePath: "/songs/2.mp3", coverPath: "/images/2.jpg"},
+    {songName: "Dekhun Tujhe Toh...", filePath: "/songs/2.mp3", coverPath: "/images/2.jpg"},
     {songName: "Dilbar-Dilbar...", filePath: "/songs/3.mp3", coverPath: "/images/3.jpg"},
-    {songName: "Aap Ki Nazaron Ne Samjha...", filePath: "/songs/4.mp3", coverPath: "/images/4.jpg"},
-    {songName: "Tujhse Naraz Nahi Zindagi...", filePath: "/songs/5.mp3", coverPath: "/images/5.jpg"},
+    {songName: "Aap Ki Nazaron...", filePath: "/songs/4.mp3", coverPath: "/images/4.jpg"},
+    {songName: "Tujhse Naraz Nahi...", filePath: "/songs/5.mp3", coverPath: "/images/5.jpg"},
     {songName: "Tor Bindiya...", filePath: "/songs/6.mp3", coverPath: "/images/6.jpg"},
-    {songName: "Mai Duniya Bhula Dunga...", filePath: "/songs/7.mp3", coverPath: "/images/7.jpg"},
+    {songName: "Mai Duniya Bhula...", filePath: "/songs/7.mp3", coverPath: "/images/7.jpg"},
     {songName: "O Sathi Re...", filePath: "/songs/8.mp3", coverPath: "/images/8.webp"},
     {songName: "Shape Of You...", filePath: "/songs/9.mp3", coverPath: "/images/9.jpeg"},
     {songName: "Let Me Love You...", filePath: "/songs/10.mp3", coverPath: "/images/10.jpg"}
