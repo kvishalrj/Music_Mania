@@ -147,12 +147,7 @@ body{
 @media screen and (max-width: 700px){
 
     body{
-        max-height: 800px;
-    }
-
-    .list ul{
-        justify-content: center;
-        align-items: center;
+        overflow: hidden;
     }
     
     .navbar ul li{
@@ -160,18 +155,22 @@ body{
     }
 
     .container{
-        height: 68vh;
-        width: 96%;
+        height: 71vh;
+        width: 95%;
         margin: 6px auto;
         background: black;
         border-radius: 5px;
-        z-index: -1;
     }
 
+    .list ul{
+        justify-content: center;
+        align-items: center;
+    }
+    
     .list ul li{
         width: 300px;
         height: 5vh;
-        margin: 3px;
+        margin: 4px;
         border-radius: 50px;
     }
 
@@ -204,11 +203,12 @@ body{
         font-size: 16px;
     }
 
+    .bottom{
+        height: 20vh;
+    }
+
     .icons{
         margin-left: 0;
     }
 
-    .bottom{
-        height: 22vh;
-    }
 }
