@@ -63,7 +63,7 @@ body{
     align-items: center;
     list-style: none;
     background-color: white;
-    width: 400px;
+    width: 35vw;
     height: 5vh;
     margin: 6px;
     padding: 2px;
@@ -144,7 +144,7 @@ body{
 
 /* responsive */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 700px){
 
     .list ul{
         justify-content: center;
@@ -165,7 +165,7 @@ body{
     }
 
     .list ul li{
-        width: 90vw;
+        width: 300px;
         height: 5.5vh;
         margin: 4px;
         border-radius: 50px;
