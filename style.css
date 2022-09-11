@@ -146,6 +146,10 @@ body{
 
 @media screen and (max-width: 700px){
 
+    body{
+        max-height: 800px;
+    }
+
     .list ul{
         justify-content: center;
         align-items: center;
@@ -156,9 +160,9 @@ body{
     }
 
     .container{
-        height: 73vh;
+        height: 68vh;
         width: 96%;
-        margin: 10px auto;
+        margin: 6px auto;
         background: black;
         border-radius: 5px;
         z-index: -1;
@@ -166,8 +170,8 @@ body{
 
     .list ul li{
         width: 300px;
-        height: 5.5vh;
-        margin: 4px;
+        height: 5vh;
+        margin: 3px;
         border-radius: 50px;
     }
 
@@ -185,17 +189,19 @@ body{
         justify-content: center;
     }
 
+    .singer{
+        margin-top: 5px;
+    }
+
     .singer img{
-        height: 3vh;
         width: 18vw;
         margin-right: 10px;
     }
-
+    
     #singerName{
-        margin-top: 2px;
         margin-left: 30px;
         width: 70vw;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .icons{
@@ -203,6 +209,6 @@ body{
     }
 
     .bottom{
-        height: 20vh;
+        height: 22vh;
     }
 }
