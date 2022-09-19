@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded',()=>{
+
 // variable declaration
 let songIndex = 0;
 let audioElement = new Audio('/songs/1.mp3');
@@ -117,4 +119,6 @@ songItem.forEach((element,i)=>{
             gif.style.opacity = 0;
         }      
     })
+})
+    
 })
