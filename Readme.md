@@ -13,7 +13,7 @@ First time I used JavaScript in this project.
  Mainly I learned the concept of JavaScript.
    
 
-[Click here to view live 🚀](https://spotify-new-clone.netlify.app/ "Street Style Landing Page")
+[Click here to view live 🚀](https://music-mania-vk.netlify.app/ "Street Style Landing Page")
 
 ## Screenshot of the Project 👇
 ![](/images/Screenshot%202022-09-10%20at%2011-20-15%20Spotify%20-%20Web%20Player%20Music%20for%20everyone.png)
