@@ -1,5 +1,5 @@
 ![Badge](https://img.shields.io/badge/Project--7-Landing--Page-blue)
-# Music_WebApp💻
+# Music_Mania💻
 ### Hey, I am [**Vishal**](https://www.linkedin.com/in/vishal-kumar-62146b230/) 🙂 
 ### This is  my 7th live Project which is  **responsive**
 ### I made this project using ![HTML & CSS & js](https://img.shields.io/badge/HTML%20%26-CSS%20%26%20js-blue)
