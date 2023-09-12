@@ -56,6 +56,12 @@ masterNext.addEventListener('click', ()=>{
     else{
         songIndex += 1;
     }
+
+    songItemPlay.forEach((element)=>{
+        element.classList.remove('fa-circle-pause');
+        element.classList.add('fa-circle-play');
+    })
+
     audioElement.src = songs[songIndex].filePath;
     audioElement.currentTime = 0;
     document.getElementById('singerName').innerText = songs[songIndex].songName;
@@ -75,6 +81,12 @@ masterPrev.addEventListener('click', ()=>{
     else{
         songIndex -= 1;
     }
+
+    songItemPlay.forEach((element)=>{
+        element.classList.remove('fa-circle-pause');
+        element.classList.add('fa-circle-play');
+    })
+
     audioElement.src = songs[songIndex].filePath;
     audioElement.currentTime = 0;
     document.getElementById('singerName').innerText = songs[songIndex].songName;
@@ -98,7 +110,14 @@ progressBar.addEventListener('change', ()=>{
 })
 
 songItem.forEach((element,i)=>{
+
     element.addEventListener('click', ()=>{
+
+        songItemPlay.forEach((element)=>{
+            element.classList.remove('fa-circle-pause');
+            element.classList.add('fa-circle-play');
+        })
+
         if(audioElement.paused || audioElement.currentTime<=0){
             audioElement.src = songs[i].filePath;
             document.getElementById('singerName').innerText = songs[i].songName;
@@ -120,5 +139,6 @@ songItem.forEach((element,i)=>{
         }      
     })
 })
-    
+
+
 })
