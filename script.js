@@ -50,17 +50,21 @@ masterPlay.addEventListener('click', ()=>{
 });
 
 masterNext.addEventListener('click', ()=>{
+
+    songItemPlay.forEach((element, i)=>{
+        if (element.classList.contains('fa-circle-pause')){
+            element.classList.remove('fa-circle-pause');
+            element.classList.add('fa-circle-play');
+            songIndex = i
+        }
+    })
+
     if(songIndex>=9){
         songIndex = 0;
     }
     else{
         songIndex += 1;
     }
-
-    songItemPlay.forEach((element)=>{
-        element.classList.remove('fa-circle-pause');
-        element.classList.add('fa-circle-play');
-    })
 
     audioElement.src = songs[songIndex].filePath;
     audioElement.currentTime = 0;
@@ -75,17 +79,21 @@ masterNext.addEventListener('click', ()=>{
 })
 
 masterPrev.addEventListener('click', ()=>{
+
+    songItemPlay.forEach((element, i)=>{
+        if (element.classList.contains('fa-circle-pause')){
+            element.classList.remove('fa-circle-pause');
+            element.classList.add('fa-circle-play');
+            songIndex = i
+        }
+    })
+
     if(songIndex<=0){
         songIndex = 0;
     }
     else{
         songIndex -= 1;
     }
-
-    songItemPlay.forEach((element)=>{
-        element.classList.remove('fa-circle-pause');
-        element.classList.add('fa-circle-play');
-    })
 
     audioElement.src = songs[songIndex].filePath;
     audioElement.currentTime = 0;
